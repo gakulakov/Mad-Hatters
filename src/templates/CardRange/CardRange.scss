@@ -1,0 +1,36 @@
+.card-range {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 511px;
+
+  margin-bottom: 83px;
+
+  &__body {
+    padding: 20px 75px;
+    background: #F6ECE8;
+
+    p {
+      &:first-child {
+        font-family: Playfair Display, sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 48px;
+        text-align: center;
+
+        color: #967675;
+      }
+
+      &:last-child {
+        padding: 10px 0;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        text-align: center;
+
+        color: #967675;
+      }
+    }
+  }
+}

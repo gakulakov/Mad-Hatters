@@ -1,0 +1,32 @@
+.list {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 153px;
+
+  &__inner {
+    display: flex;
+
+    img {
+      padding-right: 13px;
+    }
+
+  }
+
+  &__title {
+    font-family: "Playfair Display", sans-serif;
+    font-style: italic;
+    font-size: 38px;
+    color: #111111;
+  }
+
+  &__value {
+    max-width: 233px;
+    font-family: Poppins, sans-serif;
+    margin-left: 60px;
+    margin-top: 29px;
+    color: #9D8888;
+  }
+}
